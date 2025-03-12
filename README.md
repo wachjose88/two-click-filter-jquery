@@ -5,7 +5,7 @@ This is a very simple javascript library using jQuery to implement a
 
 ## Usage
 
-1. Place the file `twoclickfilter.js` in your project.
+1. Place the file [twoclickfilter.js](twoclickfilter.js) in your project.
 2. Load jQuery and the library on your html page at the end of the `body` tag. E.g.:
 
 ```html
