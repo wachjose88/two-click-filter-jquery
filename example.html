@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Two click filter example</title>
+    </head>
+    <body>
+        <h1>Two click filter example</h1>
+
+        <h2>Google Maps</h2>
+
+        <div class="tcf-placeholder"
+            data-iframe-src="https://www.google.com/maps/embed?pb=!4v1741792995983!6m8!1m7!1sr8p5Sj7DhmInk19p8sJiig!2m2!1d47.0695533130609!2d15.45077437745913!3f217.90042611495846!4f13.461522150404164!5f0.7820865974627469"
+            data-width="100%" data-height="400px" 
+            data-attributes='{"style": "border:0;", "allowfullscreen": "", "loading": "lazy"}' 
+            style="width: 100%; min-height: 400px;">
+            <h4>Load Google Maps</h4>
+            <p>
+                If you want to see the map on this page, your personal data will be transmitted to the provider of the map. 
+                Please read the privacy policy of the provider before loading the map:
+                <a href="https://policies.google.com/privacy" 
+                target="_blank" title="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+            </p>
+            <button type="button" class="tcf-button">
+                Load Map
+            </button>
+        </div>
+
+        <h2>Youtube</h2>
+
+        <div class="tcf-placeholder"
+            data-iframe-src="https://www.youtube-nocookie.com/embed/DI9hty_iT4Q?si=3iwHp4QWtJjLxAr_"
+            data-width="100%" data-height="400px" 
+            data-attributes='{"frameborder": "0", "allow": "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", "referrerpolicy": "strict-origin-when-cross-origin", "allowfullscreen": "1"}' 
+            style="width: 100%; min-height: 400px;">
+            <h4>Load Youtube</h4>
+            <p>
+                If you want to see the video on this page, your personal data will be transmitted to the provider of the video. 
+                Please read the privacy policy of the provider before loading the video:
+                <a href="https://policies.google.com/privacy" 
+                target="_blank" title="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+            </p>
+            <button type="button" class="tcf-button">
+                Load Video
+            </button>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js" 
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" 
+            crossorigin="anonymous"></script>
+        <script src="twoclickfilter.js"></script>
+    </body>
+</html>
